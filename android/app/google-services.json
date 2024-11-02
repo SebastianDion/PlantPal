@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "393113002269",
+    "project_id": "plantpal-ff2b6",
+    "storage_bucket": "plantpal-ff2b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393113002269:android:2af1b7b6f04f74be2781f4",
+        "android_client_info": {
+          "package_name": "com.example.iot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Dx648KBR4rt1JZgIt_sPrsvuTwg04OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393113002269:android:1725803916e338562781f4",
+        "android_client_info": {
+          "package_name": "com.plantpal.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Dx648KBR4rt1JZgIt_sPrsvuTwg04OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
