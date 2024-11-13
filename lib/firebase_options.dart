@@ -47,6 +47,8 @@ class DefaultFirebaseOptions {
     projectId: 'plantpal-ff2b6',
     authDomain: 'plantpal-ff2b6.firebaseapp.com',
     storageBucket: 'plantpal-ff2b6.firebasestorage.app',
+    databaseURL:
+        'https://plantpal-ff2b6-default-rtdb.asia-southeast1.firebasedatabase.app/', // Add the database URL
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -55,6 +57,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '393113002269',
     projectId: 'plantpal-ff2b6',
     storageBucket: 'plantpal-ff2b6.firebasestorage.app',
+    databaseURL:
+        'https://plantpal-ff2b6-default-rtdb.asia-southeast1.firebasedatabase.app/', // Add the database URL
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -64,6 +68,8 @@ class DefaultFirebaseOptions {
     projectId: 'plantpal-ff2b6',
     storageBucket: 'plantpal-ff2b6.firebasestorage.app',
     iosBundleId: 'com.example.iot',
+    databaseURL:
+        'https://plantpal-ff2b6-default-rtdb.asia-southeast1.firebasedatabase.app/', // Add the database URL
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -73,6 +79,8 @@ class DefaultFirebaseOptions {
     projectId: 'plantpal-ff2b6',
     storageBucket: 'plantpal-ff2b6.firebasestorage.app',
     iosBundleId: 'com.example.iot',
+    databaseURL:
+        'https://plantpal-ff2b6-default-rtdb.asia-southeast1.firebasedatabase.app/', // Add the database URL
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
@@ -82,5 +90,7 @@ class DefaultFirebaseOptions {
     projectId: 'plantpal-ff2b6',
     authDomain: 'plantpal-ff2b6.firebaseapp.com',
     storageBucket: 'plantpal-ff2b6.firebasestorage.app',
+    databaseURL:
+        'https://plantpal-ff2b6-default-rtdb.asia-southeast1.firebasedatabase.app/', // Add the database URL
   );
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iot/pages/startPage.dart';
+import 'package:iot/pages/startpage.dart';
 
 class Splash extends StatelessWidget {
   const Splash({super.key});
