@@ -4,19 +4,12 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 void main() async {
-  // Ensure WidgetsFlutterxBinding is initialized
   WidgetsFlutterBinding.ensureInitialized();
-
-  // Initialize Firebase (only once)
   try {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions
-          .currentPlatform, // Ensure this points to the correct Firebase options
-    );
+    await Firebase.initializeApp();
   } catch (e) {
     print('Error initializing Firebase: $e');
   }
-
   runApp(MyApp());
 }
 
